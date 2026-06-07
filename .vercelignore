@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+auth.json
+tokens/
+screenshots/
+README.md
+TEST-CHECKLIST.md
+metadata.json
