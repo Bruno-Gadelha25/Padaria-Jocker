@@ -481,7 +481,7 @@ export default function App() {
 
             <div className="h-[450px] rounded-3xl overflow-hidden shadow-2xl border-8 border-brand-bg">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m12!1m3!1d3839.23123456789!2d-48.0017236!3d-15.8014086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a33d62fad2c99%3A0xe50fa35e7fa38dd8!2sJockey+P%C3%A3es!5e0!3m2!1spt-BR!2sbr!4v1234567890123" 
+                src="https://maps.google.com/maps?q=-15.8014086,-48.0017236&z=15&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
