@@ -303,7 +303,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
             <li><b>Cento de salgados ou docinhos</b><span>R$ 89</span></li>
             <li><b>Cesta de café da manhã</b><span>R$ 149</span></li>
           </ul>
-          <a class="btn btn-gold" target="_blank" rel="noopener" href="https://wa.me/?text=Ol%C3%A1%2C%20Jockey%20P%C3%A3es!%20Quero%20encomendar%20um%20bolo.">Encomendar pelo WhatsApp</a>
+          <a class="btn btn-gold" target="_blank" rel="noopener" href="https://wa.me/5561982762065?text=%5BTeste%20no%20site%20de%20exemplo%20Jockey%20P%C3%A3es%5D%20Ol%C3%A1!%20Quero%20encomendar%20um%20bolo.">Encomendar pelo WhatsApp</a>
         </div>
         <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1100&q=80&auto=format&fit=crop" alt="Bolo de chocolate com cobertura de ganache e confeitos" width="1100" height="900" loading="lazy">
       </div>
@@ -494,7 +494,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   document.getElementById("bag-open").addEventListener("click", openSheet);
   sheet.addEventListener("click", function(e){ if (e.target.closest("[data-close]")) sheet.classList.remove("open"); });
   addEventListener("keydown", function(e){ if (e.key === "Escape") sheet.classList.remove("open"); });
-  document.getElementById("send").addEventListener("click", function(){ this.href = "https://wa.me/?text=" + encodeURIComponent(msg()); });
+  document.getElementById("send").addEventListener("click", function(){ this.href = "https://wa.me/5561982762065?text=" + encodeURIComponent("[Teste no site de exemplo Jockey Pães, feito pela Sites Express]
+
+" + msg()); });
 
   render("paes");
 })();
